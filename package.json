@@ -1,0 +1,22 @@
+{
+  "name": "space-buyz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install && npm install --prefix server && npm install --prefix admin && npm run build --prefix admin",
+    "start": "npm run start --prefix server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahul-1716/SPACE-SHARE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahul-1716/SPACE-SHARE/issues"
+  },
+  "homepage": "https://github.com/rahul-1716/SPACE-SHARE#readme"
+}
